@@ -1,0 +1,94 @@
+{
+  "unpublishedPage": {
+    "name": "登陆",
+    "slug": "",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 550,
+          "containerStyle": "none",
+          "snapRows": 124,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 77,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "schema": "{\"form\":{\"labelCol\":6,\"wrapperCol\":12},\"schema\":{\"type\":\"object\",\"properties\":{\"username\":{\"type\":\"string\",\"title\":\"账号\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"name\":\"username\",\"x-designable-id\":\"fwc4akperyc\",\"x-index\":0},\"password\":{\"title\":\"密码\",\"x-decorator\":\"FormItem\",\"x-component\":\"Password\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"name\":\"password\",\"x-designable-id\":\"mhrzkl17q5a\",\"x-index\":1}},\"x-designable-id\":\"ysr3n1mvoal\"}}",
+              "widgetName": "login",
+              "isCanvas": false,
+              "displayName": "Formily表单",
+              "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
+              "searchTags": [
+                "form",
+                "submit"
+              ],
+              "topRow": 27,
+              "bottomRow": 55,
+              "parentRowSpace": 10,
+              "title": "登陆/注册",
+              "type": "FORMILY_WIDGET",
+              "triggerLabel": "打开表单",
+              "hideCard": false,
+              "parentColumnSpace": 17.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 16,
+              "dynamicBindingPathList": [
+                {
+                  "key": "themeColor"
+                }
+              ],
+              "resetLabel": "重置",
+              "showReset": true,
+              "key": "fb22nq2css",
+              "submitLabel": "提交",
+              "formType": "PLAIN",
+              "isDeprecated": false,
+              "rightColumn": 48,
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "axe7fe6ish",
+              "drawerWidth": "520px",
+              "isVisible": true,
+              "componentSize": "middle",
+              "version": 1,
+              "parentId": "0",
+              "modalWidth": "520px",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "originalTopRow": 27,
+              "maxDynamicHeight": 9000,
+              "themeColor": "{{appsmith.theme.colors.primaryColor}}",
+              "originalBottomRow": 55,
+              "minDynamicHeight": 4
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "登陆",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "643d27a1b345ac63e3bf3693_643d27a1b345ac63e3bf3695"
+}
